@@ -13,7 +13,7 @@ var totalram = `${Math.round(os.totalmem / 1024 / 1024)}`
 var ramDipake = totalram-sisaram
 const defaultMenu = {
     before: `
-╭──『 _*BOTCAHX*_ 』──⬣
+╭──『 _*XYNDYKATZ BOT*_ 』──⬣
 │⬡ *Hai*, %name!
 │
 │⬡ *Tersisa* : %limit Limit
@@ -29,8 +29,8 @@ const defaultMenu = {
 │⬡ *Uptime* : %uptime
 │⬡ *Database* : %rtotalreg dari %totalreg
 │⬡ *Memory Used* : ${ramDipake}MB / ${totalram}MB
-│⬡ *Instagram* :
-│⬡ https://instagram.com/mursid.st
+│⬡ *YouTube* :
+│⬡ https://youtube.com/c/KATEARRAWAWIE
 ╰───────────⬣`.trimStart(),
     header: '╭──〘 %category 〙──⬣',
     body: '│⬡%cmd %islimit %isPremium',
@@ -243,7 +243,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 │⬡ *Chat Terbanned* : ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}
 │⬡ *Pengguna Terbanned* : ${Object.entries(global.db.data.users).filter(user => user[1].banned).length}
 ╰───────────⬣`.trim(),
-                        "footerText": "© _*BOTCAHX*_",
+                        "footerText": "© _*XYNDYKATZ BOT*_",
                         "buttonText": "*Klik Disini*",
                         "listType": "SINGLE_SELECT",
                         "sections": [
@@ -257,7 +257,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "description": "User yang bijak selalu mematuhi Rules.",
                                     "rowId": ".rules"
                                 }, {
-                                    "title": "Info Mursid",
+                                    "title": "Info XYNDYKATZ",
                                     "description": "Info Tentang Owner Bot",
                                     "rowId": ".infomursid"
                                 }, {
@@ -392,7 +392,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                             }, {
                                 "rows": [{
                                     "title": "Owner bot",
-                                    "description": "Pemilik Mursid S",
+                                    "description": "Pemilik XYNDYKATZ",
                                     "rowId": ".owner"
                                 }, {
                                     "title": "Donasi",
