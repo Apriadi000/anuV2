@@ -9,9 +9,9 @@ let handler = async (m, { conn }) => {
     let uptime = clockString(_uptime)
 
     let str = `
-┌─〔 _*Info MursidXzy*_ 〕
-│Name : MursidXd
-│Main Owner : Mursid S
+┌─〔 _*Info XYNDYKATZ*_ 〕
+│Name : XYNDYKATZ
+│Main Owner : KATE
 │Operated Since: 19 September 2021/2022
 │Language Used: Nodejs (JS)
 │Server: Heroku/VPS
@@ -39,7 +39,7 @@ let handler = async (m, { conn }) => {
 ├ ${jadibot ? '✅' : '❌'} *Jadi Bot*
 ├ ${nsfw ? '✅' : '❌'} *Mode Nsfw*
 └────`.trim()
-     await conn.send2ButtonLoc(m.chat, await(await fetch(image)).buffer(), str, '© _BOTCAHX_ ', 'ρємιℓιк вσт', '.owner', 'мєηυ αℓℓ', '.menu', m)
+     await conn.send2ButtonLoc(m.chat, await(await fetch(image)).buffer(), str, '© _XYNDYKATZ_ ', 'ρємιℓιк вσт', '.owner', 'мєηυ αℓℓ', '.menu', m)
 }
 handler.help = ['botstatus']
 handler.tags = ['info']
