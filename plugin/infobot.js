@@ -22,12 +22,12 @@ let handler  = async (m, { conn, usedPrefix }) => {
 ╠➥ *Uptime:* ${uptime}
 ║
 ╠═〘 Donasi • Pulsa • Dana 〙 ═
-╠➥ DANA [088233832771]
-╠➥ Tri [089612698583]
+╠➥ DANA [085954944195]
+╠➥ Xl [085954944195]
 ╠➥ Smartfren [088233832771]
 ║
 ║${readMore}
-╠═〘 Rules Bot Mursid 〙 ═
+╠═〘 Rules Bot XYNDYKATZ 〙 ═
 ╠➥ *KAMI TIDAK BERTANGGUNG*
 ║   *JAWAB ATAS PENYALAH*
 ║   *GUNAAN BOT*
